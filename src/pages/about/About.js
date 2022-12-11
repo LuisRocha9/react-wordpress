@@ -6,7 +6,7 @@ const About = () => {
 
 	useEffect(() => {
 		fetch(API_URL + 'pages?slug=about', {
-			mode: 'cors',
+			mode: 'no-cors',
 			headers: {
 				'Content-Type': 'application/json',
 			}
