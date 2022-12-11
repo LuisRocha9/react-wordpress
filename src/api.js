@@ -1,1 +1,1 @@
-export const API_URL = 'http://167.99.92.95/wp-json/wp/v2/';
+export const API_URL = 'https://host1.p4.humaginarium.net/wp-json/wp/v2/';
