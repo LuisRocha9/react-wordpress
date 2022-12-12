@@ -5,12 +5,7 @@ const About = () => {
 	const [aboutPageInfo, setAboutPageInfo] = useState(null);
 
 	useEffect(() => {
-		fetch(API_URL + 'pages?slug=about', {
-			mode: 'no-cors',
-			headers: {
-				'Content-Type': 'application/json',
-			}
-		})
+		fetch(API_URL + 'pages?slug=about')
 				.then(response => response.json())
 				.then(result => {
 					setAboutPageInfo(result)
